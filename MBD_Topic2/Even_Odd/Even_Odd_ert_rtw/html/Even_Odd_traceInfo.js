@@ -1,0 +1,31 @@
+function RTW_rtwnameSIDMap() {
+	this.rtwnameHashMap = new Array();
+	this.sidHashMap = new Array();
+	this.rtwnameHashMap["<Root>"] = {sid: "Even_Odd"};
+	this.sidHashMap["Even_Odd"] = {rtwname: "<Root>"};
+	this.rtwnameHashMap["<S1>"] = {sid: "Even_Odd:23"};
+	this.sidHashMap["Even_Odd:23"] = {rtwname: "<S1>"};
+	this.rtwnameHashMap["<Root>/Num"] = {sid: "Even_Odd:21"};
+	this.sidHashMap["Even_Odd:21"] = {rtwname: "<Root>/Num"};
+	this.rtwnameHashMap["<Root>/Subsystem"] = {sid: "Even_Odd:23"};
+	this.sidHashMap["Even_Odd:23"] = {rtwname: "<Root>/Subsystem"};
+	this.rtwnameHashMap["<Root>/Output"] = {sid: "Even_Odd:22"};
+	this.sidHashMap["Even_Odd:22"] = {rtwname: "<Root>/Output"};
+	this.rtwnameHashMap["<S1>/Input"] = {sid: "Even_Odd:24"};
+	this.sidHashMap["Even_Odd:24"] = {rtwname: "<S1>/Input"};
+	this.rtwnameHashMap["<S1>/Constant"] = {sid: "Even_Odd:4"};
+	this.sidHashMap["Even_Odd:4"] = {rtwname: "<S1>/Constant"};
+	this.rtwnameHashMap["<S1>/Mod"] = {sid: "Even_Odd:3"};
+	this.sidHashMap["Even_Odd:3"] = {rtwname: "<S1>/Mod"};
+	this.rtwnameHashMap["<S1>/String Constant"] = {sid: "Even_Odd:17"};
+	this.sidHashMap["Even_Odd:17"] = {rtwname: "<S1>/String Constant"};
+	this.rtwnameHashMap["<S1>/String Constant1"] = {sid: "Even_Odd:18"};
+	this.sidHashMap["Even_Odd:18"] = {rtwname: "<S1>/String Constant1"};
+	this.rtwnameHashMap["<S1>/Switch"] = {sid: "Even_Odd:16"};
+	this.sidHashMap["Even_Odd:16"] = {rtwname: "<S1>/Switch"};
+	this.rtwnameHashMap["<S1>/Output"] = {sid: "Even_Odd:25"};
+	this.sidHashMap["Even_Odd:25"] = {rtwname: "<S1>/Output"};
+	this.getSID = function(rtwname) { return this.rtwnameHashMap[rtwname];}
+	this.getRtwname = function(sid) { return this.sidHashMap[sid];}
+}
+RTW_rtwnameSIDMap.instance = new RTW_rtwnameSIDMap();

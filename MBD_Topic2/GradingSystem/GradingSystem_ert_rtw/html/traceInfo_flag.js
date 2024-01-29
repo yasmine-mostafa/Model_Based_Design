@@ -1,0 +1,50 @@
+function TraceInfoFlag() {
+    this.traceFlag = new Array();
+    this.traceFlag["GradingSystem.c:44c29"]=1;
+    this.traceFlag["GradingSystem.c:53c37"]=1;
+    this.traceFlag["GradingSystem.c:53c46"]=1;
+    this.traceFlag["GradingSystem.c:53c72"]=1;
+    this.traceFlag["GradingSystem.c:63c37"]=1;
+    this.traceFlag["GradingSystem.c:63c46"]=1;
+    this.traceFlag["GradingSystem.c:63c72"]=1;
+    this.traceFlag["GradingSystem.c:73c37"]=1;
+    this.traceFlag["GradingSystem.c:73c46"]=1;
+    this.traceFlag["GradingSystem.c:73c72"]=1;
+    this.traceFlag["GradingSystem.c:83c36"]=1;
+}
+top.TraceInfoFlag.instance = new TraceInfoFlag();
+function TraceInfoLineFlag() {
+    this.lineTraceFlag = new Array();
+    this.lineTraceFlag["GradingSystem.c:44"]=1;
+    this.lineTraceFlag["GradingSystem.c:48"]=1;
+    this.lineTraceFlag["GradingSystem.c:49"]=1;
+    this.lineTraceFlag["GradingSystem.c:52"]=1;
+    this.lineTraceFlag["GradingSystem.c:53"]=1;
+    this.lineTraceFlag["GradingSystem.c:58"]=1;
+    this.lineTraceFlag["GradingSystem.c:59"]=1;
+    this.lineTraceFlag["GradingSystem.c:62"]=1;
+    this.lineTraceFlag["GradingSystem.c:63"]=1;
+    this.lineTraceFlag["GradingSystem.c:68"]=1;
+    this.lineTraceFlag["GradingSystem.c:69"]=1;
+    this.lineTraceFlag["GradingSystem.c:72"]=1;
+    this.lineTraceFlag["GradingSystem.c:73"]=1;
+    this.lineTraceFlag["GradingSystem.c:78"]=1;
+    this.lineTraceFlag["GradingSystem.c:79"]=1;
+    this.lineTraceFlag["GradingSystem.c:82"]=1;
+    this.lineTraceFlag["GradingSystem.c:83"]=1;
+    this.lineTraceFlag["GradingSystem.c:87"]=1;
+    this.lineTraceFlag["GradingSystem.c:88"]=1;
+    this.lineTraceFlag["GradingSystem.c:91"]=1;
+    this.lineTraceFlag["GradingSystem.c:97"]=1;
+    this.lineTraceFlag["GradingSystem.c:98"]=1;
+    this.lineTraceFlag["GradingSystem.c:114"]=1;
+    this.lineTraceFlag["GradingSystem.h:38"]=1;
+    this.lineTraceFlag["GradingSystem.h:46"]=1;
+    this.lineTraceFlag["GradingSystem.h:51"]=1;
+    this.lineTraceFlag["GradingSystem.h:56"]=1;
+    this.lineTraceFlag["GradingSystem.h:61"]=1;
+    this.lineTraceFlag["GradingSystem.h:66"]=1;
+    this.lineTraceFlag["GradingSystem.h:71"]=1;
+    this.lineTraceFlag["GradingSystem.h:76"]=1;
+}
+top.TraceInfoLineFlag.instance = new TraceInfoLineFlag();
